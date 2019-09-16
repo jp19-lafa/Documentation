@@ -115,4 +115,4 @@ Project Link: [https://github.com/jp19-lafa/Documentation](https://github.com/jp
 [issues-url]: https://github.com/jp19-lafa/Documentation/issues
 [license-shield]: https://img.shields.io/github/license/jp19-lafa/Documentation.svg?style=flat-square
 [license-url]: https://github.com/jp19-lafa/Documentation/blob/master/LICENSE.txt
-[product-screenshot]: https://raw.githubusercontent.com/jp19-lafa/Documentation/master/images/branding/plant_transparent.svg
+[product-screenshot]: images/branding/plant_transparent.png

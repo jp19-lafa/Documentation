@@ -11,7 +11,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/jp19-lafa/Documentation">
-    <img src="https://raw.githubusercontent.com/jp19-lafa/Documentation/master/images/branding/plant_transparent.png" alt="Logo" width="150" height="200">
+    <img src="https://raw.githubusercontent.com/jp19-lafa/Documentation/master/images/branding/plant_transparent.png" alt="Logo" width="200" height="200">
   </a>
 
   <h3 align="center">DOCUMENTATION</h3>

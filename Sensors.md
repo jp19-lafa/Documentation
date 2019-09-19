@@ -16,7 +16,9 @@
 
 We'll use the DS18B20 temperature sensor because of its specifications listed above. A Raspberry Pi B+ includes 3 one-wire interfaces where we can connect the sensor. (GPIO4,17,27) We don't need to convert the value read by the one-wire bus, so we can directly read and use this value. To connect the sensor with the controller we only need the data pin connected to the one-wire bus, power and ground. Wich is all accessible on the Raspberry Pi.
 
-<img src='../Images/Branding/Pinout_DS18B20.png'>
+<p align="center">
+  <img  src='https://raw.githubusercontent.com/jp19-lafa/Documentation/master/images/sensors/Pinout_DS18B20.png'>
+</p>
 
 `Datasheet`: [WaterTemperature]
 
@@ -34,7 +36,9 @@ We'll use the DS18B20 temperature sensor because of its specifications listed ab
 * Dyestuff industry
 * Research institutions
 
-<img src='../Images/Branding/Ph_scale.png'>
+<p align="center">
+  <img src='https://raw.githubusercontent.com/jp19-lafa/Documentation/master/images/sensors/Ph_scale.png'>
+</p>
 
 The optimal ph value is different for specific plants. This sensor can measure values from 0 till 14. In general, water for irrigation should have a pH between 5.0 and 7.0. The sensor will read an analog value that we'll read with an analog pin on a micro-controller and then send this value over I2C to the controller.
 
@@ -64,15 +68,17 @@ Irrigation water tests should always include both pH and alkalinity tests. A pH 
 * Automation & process control
 * Medical
 
-<img src='../Images/Branding/Schematic_HIH6030.png'>
-<img src='../Images/Branding/Pinout_HIH6030.png'>
+<p align="center">
+  <img src='https://raw.githubusercontent.com/jp19-lafa/Documentation/master/images/sensors/Pinout_HIH6030.png'>
+  <img src='https://raw.githubusercontent.com/jp19-lafa/Documentation/master/images/sensors/Schematic_HIHI6030.png'>
+</p>
 
 A small, low power sensor that measures the air humidity and the temperature of there surounding. The specifications are good to  enough to periodically monitor the relativ humidity and temperature. The data will be received over I2C on the main controller. (GPIO2 & GPIO3)
 
 `Datasheet`: [HIH6030]
 
 ## Light sensor module
-### Specifications:
+### Specifications
 * Type: analog (A) & digital (D)
 * using: high quality photoresistor
 * Voltage: 3.3V - 5V
@@ -80,7 +86,9 @@ A small, low power sensor that measures the air humidity and the temperature of 
 * Max-output-current: 15mA
 * Sensitivity: adjustable with potentiometer
 
-<img src='../Images/Branding/Pinout_LightSensor.png'>
+<p align="center">
+  <img src='https://raw.githubusercontent.com/jp19-lafa/Documentation/master/images/sensors/Pinout_LightSensor.png'>
+</p>
 
 Very easy module to measure the light intensity of the environement of the plants. No circuit with seperate components (LDR, resistors) needed.
 
@@ -91,3 +99,15 @@ Very easy module to measure the light intensity of the environement of the plant
 [HIH6030]:https://www.farnell.com/datasheets/1927619.pdf
 
 [LightSensor]:http://www.uugear.com/product/uugear-light-sensor-module-4-wire-with-both-digital-and-analog-output/
+
+## Arduino level sensor
+### Specifications
+* Type: analog
+* Operating temperature: 10℃ - 30℃
+* Voltage: 3V - 5V
+* Operating current: less than 20mA
+
+### Used for
+* Measuring liquid levels
+
+Sensor that will be used to detect/secure the water level of the plant reservoirs. It's an analog sensor and will be read by a microcontroller. That value will be send over I2C to the main controller.

@@ -33,11 +33,12 @@
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-* [About the Project](#about-the-project)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [License](#license)
-* [Team](#contact)
+- [Table of Contents](#table-of-contents)
+- [About The Project](#about-the-project)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+- [Team](#team)
 
 
 
@@ -82,7 +83,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- Team -->
 ## Team
 
-Meurs Michiel - <!-- TODO: add a e-mail of meurs choosing-->
+Meurs Michiel - michiel.meurs1@gmail.com<!-- TODO: add a e-mail of meurs choosing-->
 <br>
 Meyers Tom - tom@odex.be
 <br>

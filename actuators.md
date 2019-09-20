@@ -12,8 +12,8 @@
 Plants use light mostly for photosynthesis. The plant absorbs spectrums of light and there is a peak in the blue and red region wich means that these colors are used for photosynthesis. More about [color] [spectrum]?
 
 <p align="center">
-  <img src="">
-  <img src="">
+  <img src="https://raw.githubusercontent.com/jp19-lafa/Documentation/master/images/actuators/Light_spectrum.png">
+  <img src="https://raw.githubusercontent.com/jp19-lafa/Documentation/master/images/actuators/Absorb_Light.png">
 </p>
 
 Because of how plants grow we use a red and blue blue ledstrip. It depends on your goals, if you add
@@ -41,17 +41,44 @@ Peristaltic pumps are used to pump fluids without exposing those fluids to the p
 
 * Motor type: bipolar stepper
 * Holding torque: 60Ncm
+* Step angle: 1.8°
 * Rated Current/phase: 640mA
 * Phase resistance: 15ohms
 * Inductance: 32mH ± 20%(1KHz)
+* Rotation: 360°
 * Voltage: 10V
 
 This stepper motor will be used in the XY-system to move the camera that will monitor the plants stages of growth.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jp19-lafa/Documentation/analysis/actuators/images/actuators/Torque_Curve.png">
+</p>
+
 `Website`: [Nema17]
+
+## Stepper driver for the Nema17 - A4988 
+
+### Specifications
+* Drive current: 2A
+* Adjustable current: yess with potentiometer
+* #Step resolutions: 5
+* Type: through-hole
+* Safety: Over-temperature thermal shutdown, under-voltage lockout, and crossover-current protection
+
+### Used for
+* Stepper motors
+* 3 printers
+* CNC
+* Engraving machines
+* etc...
+
+This driver will work with our Nema17 stepper motor. The use cases for this driver is related to the function of the motor that we'll use for Farmlab.
+
+`Website`: [A4988]
 
 [spectrum]: https://www.gardenmyths.com/led-grow-lights-color-spectrum/
 [color]: https://www.gardenmyths.com/led-grow-lights-color-spectrum/
 [link]: https://www.gardenmyths.com/led-grow-lights-color-spectrum/
 [Nema17]: https://www.omc-stepperonline.com/nema-17-bipolar-18deg-60ncm-85ozin-064a-10v-42x42x60mm-4-wires-17hs24-0644s.html?search=nema%2017
+[A4988]: https://www.amazon.com/HiLetgo-Stepstick-Stepper-Printer-Compatible/dp/B07BND65C8/ref=sr_1_1_sspa?keywords=a4988&linkCode=sl2&linkId=3d405814921cfd3b11a5c53327086e43&qid=1568978407&s=gateway&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExSlhDVVBBTUQ1UTJaJmVuY3J5cHRlZElkPUEwNTIyOTkwM0FCVkNKRDM2R0JJTiZlbmNyeXB0ZWRBZElkPUEwMjcyMDIxMVBMUjZDVklSSUlCNCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=
 

@@ -83,11 +83,11 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- Team -->
 ## Team
 
-Meurs Michiel - michiel.meurs1@gmail.com<!-- TODO: add a e-mail of meurs choosing-->
+Meurs Michiel - michiel.meurs1@gmail.com
 <br>
 Meyers Tom - tom@odex.be
 <br>
-Van Hoof Jonas- <!-- TODO: add a e-mail of Van Hoof's choosing-->
+Van Hoof Jonas - Jonas.vanhoof@student.ap.be
 <br>
 Vinck Ben - <!-- TODO: add a e-mail of Vincks choosing-->
 <br>

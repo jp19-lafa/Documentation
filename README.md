@@ -33,12 +33,12 @@
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-- [Table of Contents](#table-of-contents)
-- [About The Project](#about-the-project)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
-- [Team](#team)
+* [Table of Contents](#table-of-contents)
+* [About The Project](#about-the-project)
+* [Roadmap](#roadmap)
+* [Contributing](#contributing)
+* [License](#license)
+* [Team](#team)
 
 
 
@@ -94,10 +94,6 @@ Vinck Ben - <!-- TODO: add a e-mail of Vincks choosing-->
 Willemsen Matthias - <!-- TODO: add a e-mail of Willemsen's choosing-->
 
 Project Link: [https://github.com/jp19-lafa/Documentation](https://github.com/jp19-lafa/Documentation)
-
-
-
-
 
 
 

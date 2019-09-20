@@ -33,11 +33,12 @@
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-* [About the Project](#about-the-project)
+* [Table of Contents](#table-of-contents)
+* [About The Project](#about-the-project)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [License](#license)
-* [Team](#contact)
+* [Team](#team)
 
 
 
@@ -82,21 +83,17 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- Team -->
 ## Team
 
-Meurs Michiel - <!-- TODO: add a e-mail of meurs choosing-->
+Meurs Michiel - michiel.meurs1@gmail.com
 <br>
 Meyers Tom - tom@odex.be
 <br>
-Van Hoof Jonas- <!-- TODO: add a e-mail of Van Hoof's choosing-->
+Van Hoof Jonas - Jonas.vanhoof@student.ap.be
 <br>
 Vinck Ben - <!-- TODO: add a e-mail of Vincks choosing-->
 <br>
 Willemsen Matthias - <!-- TODO: add a e-mail of Willemsen's choosing-->
 
 Project Link: [https://github.com/jp19-lafa/Documentation](https://github.com/jp19-lafa/Documentation)
-
-
-
-
 
 
 

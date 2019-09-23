@@ -1,0 +1,547 @@
+{
+  "formatVersion": 3,
+  "id": "root",
+  "ideas": {
+    "1": {
+      "title": "FarmLab",
+      "id": 1,
+      "attr": {
+        "position": [
+          -494,
+          220,
+          1
+        ],
+        "style": {
+          "fontMultiplier": 2
+        }
+      },
+      "ideas": {
+        "-0.5": {
+          "title": "Measurements",
+          "id": 4,
+          "ideas": {
+            "4": {
+              "title": "Water",
+              "id": 10,
+              "ideas": {
+                "1": {
+                  "title": "Waterlevel",
+                  "id": 7,
+                  "attr": {}
+                },
+                "2": {
+                  "title": "Temperature",
+                  "id": 6,
+                  "attr": {}
+                },
+                "3": {
+                  "title": "PH",
+                  "id": 5,
+                  "attr": {}
+                }
+              },
+              "attr": {
+                "style": {
+                  "fontMultiplier": 1.25
+                }
+              }
+            },
+            "5": {
+              "title": "Plants",
+              "id": 12,
+              "ideas": {
+                "1": {
+                  "title": "Lightlevel",
+                  "id": 13
+                },
+                "2": {
+                  "title": "Computer Vision",
+                  "id": 14
+                },
+                "3": {
+                  "title": "Humidity",
+                  "id": 15
+                }
+              },
+              "attr": {
+                "style": {
+                  "fontMultiplier": 1.25
+                }
+              }
+            }
+          },
+          "attr": {
+            "position": [
+              178,
+              -137,
+              19
+            ],
+            "style": {
+              "fontMultiplier": 1.5
+            }
+          }
+        },
+        "5.5": {
+          "title": "Construction",
+          "id": 16,
+          "attr": {
+            "position": [
+              170,
+              -154,
+              14
+            ],
+            "style": {
+              "fontMultiplier": 1.5
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Modular",
+              "id": 19,
+              "ideas": {
+                "1": {
+                  "title": "Daisychain",
+                  "id": 27,
+                  "attr": {}
+                }
+              }
+            },
+            "3": {
+              "title": "Frame",
+              "id": 21,
+              "ideas": {
+                "1": {
+                  "title": "Height 2m, Width 1m, Depth 0.4m",
+                  "id": 20,
+                  "attr": {},
+                  "ideas": {}
+                }
+              }
+            },
+            "4": {
+              "title": "Water reservoir",
+              "id": 22,
+              "attr": {}
+            },
+            "5": {
+              "title": "Plant holders",
+              "id": 28,
+              "ideas": {
+                "1": {
+                  "title": "Pots",
+                  "id": 29,
+                  "ideas": {}
+                },
+                "2": {
+                  "title": "Clay balls",
+                  "id": 30,
+                  "attr": {}
+                },
+                "3": {
+                  "title": "Modular",
+                  "id": 31,
+                  "ideas": {
+                    "1": {
+                      "title": "Detachable",
+                      "id": 32,
+                      "attr": {}
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "fontMultiplier": 1.25
+                }
+              }
+            },
+            "6": {
+              "title": "Lighting",
+              "id": 33
+            }
+          }
+        },
+        "11.875": {
+          "title": "Circulation",
+          "id": 44,
+          "attr": {
+            "style": {
+              "fontMultiplier": 1.5
+            },
+            "position": [
+              145,
+              121,
+              22
+            ]
+          },
+          "ideas": {
+            "1": {
+              "title": "Water from reservoir to upper plant holder",
+              "id": 45,
+              "ideas": {
+                "1": {
+                  "title": "Water flows down into the next plant holder",
+                  "id": 46,
+                  "ideas": {
+                    "1": {
+                      "title": "Water flows back into the reservoir",
+                      "id": 47
+                    }
+                  }
+                }
+              },
+              "attr": {}
+            }
+          }
+        },
+        "-20.5": {
+          "title": "Nutriants",
+          "id": 18,
+          "attr": {
+            "style": {
+              "fontMultiplier": 1.5,
+              "width": 89
+            },
+            "position": [
+              144,
+              138,
+              21
+            ]
+          },
+          "ideas": {
+            "1": {
+              "title": "Mixing problems when adding directly to reservoir",
+              "id": 36,
+              "ideas": {
+                "1": {
+                  "title": "Sollutions",
+                  "id": 39,
+                  "ideas": {
+                    "1": {
+                      "title": "Add nutriants at circulation pump",
+                      "id": 37
+                    },
+                    "2": {
+                      "title": "Add nutriants at water entry of reservoir",
+                      "id": 40
+                    },
+                    "3": {
+                      "title": "Add nutrients directly in plant holder",
+                      "id": 41
+                    }
+                  },
+                  "attr": {}
+                }
+              }
+            }
+          }
+        },
+        "-10.5": {
+          "title": "Controlls",
+          "id": 17,
+          "attr": {
+            "style": {
+              "fontMultiplier": 1.5,
+              "width": 82
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Web application",
+              "id": 42
+            },
+            "2": {
+              "title": "Touchscreen",
+              "id": 43
+            }
+          }
+        }
+      }
+    }
+  },
+  "title": "FarmLab",
+  "links": [],
+  "theme": {
+    "name": "MindMup Default",
+    "node": [
+      {
+        "name": "default",
+        "cornerRadius": 10,
+        "backgroundColor": "#E0E0E0",
+        "border": {
+          "type": "surround",
+          "line": {
+            "color": "#707070",
+            "width": 1,
+            "style": "solid"
+          }
+        },
+        "shadow": [
+          {
+            "color": "#070707",
+            "opacity": 0.4,
+            "offset": {
+              "width": 2,
+              "height": 2
+            },
+            "radius": 2
+          }
+        ],
+        "text": {
+          "margin": 5,
+          "alignment": "center",
+          "maxWidth": 146,
+          "color": "#4F4F4F",
+          "lightColor": "#EEEEEE",
+          "darkColor": "#000000",
+          "font": {
+            "lineSpacing": 4.5,
+            "lineSpacingPx": 6,
+            "size": 9,
+            "sizePx": 12,
+            "weight": "bold"
+          }
+        },
+        "connections": {
+          "default": {
+            "h": "center",
+            "v": "center"
+          },
+          "from": {
+            "horizontal": {
+              "h": "nearest-inset",
+              "v": "center"
+            }
+          },
+          "to": {
+            "h": "nearest",
+            "v": "center"
+          }
+        },
+        "decorations": {
+          "height": 20,
+          "edge": "top",
+          "overlap": true,
+          "position": "end",
+          "margin": 2,
+          "label": {
+            "border": 1,
+            "cornerRadius": 11,
+            "margin": 2,
+            "font": {
+              "lineSpacing": 0,
+              "lineSpacingPx": 0,
+              "size": 9,
+              "sizePx": 12,
+              "weight": "bold"
+            }
+          },
+          "cornerRadius": 12,
+          "backgroundColor": "#22aae0",
+          "opacity": 0.8,
+          "color": "#ffffff"
+        }
+      },
+      {
+        "name": "level_1",
+        "backgroundColor": "#22AAE0"
+      },
+      {
+        "name": "activated",
+        "border": {
+          "type": "surround",
+          "line": {
+            "color": "#22AAE0",
+            "width": 3,
+            "style": "dotted"
+          }
+        }
+      },
+      {
+        "name": "level_1.activated",
+        "border": {
+          "type": "surround",
+          "line": {
+            "color": "#EEEEEE",
+            "width": 3,
+            "style": "dotted"
+          }
+        }
+      },
+      {
+        "name": "selected",
+        "shadow": [
+          {
+            "color": "#000000",
+            "opacity": 0.9,
+            "offset": {
+              "width": 2,
+              "height": 2
+            },
+            "radius": 2
+          }
+        ]
+      },
+      {
+        "name": "collapsed",
+        "shadow": [
+          {
+            "color": "#888888",
+            "offset": {
+              "width": 0,
+              "height": 1
+            },
+            "radius": 0
+          },
+          {
+            "color": "#FFFFFF",
+            "offset": {
+              "width": 0,
+              "height": 3
+            },
+            "radius": 0
+          },
+          {
+            "color": "#888888",
+            "offset": {
+              "width": 0,
+              "height": 4
+            },
+            "radius": 0
+          },
+          {
+            "color": "#FFFFFF",
+            "offset": {
+              "width": 0,
+              "height": 6
+            },
+            "radius": 0
+          },
+          {
+            "color": "#888888",
+            "offset": {
+              "width": 0,
+              "height": 7
+            },
+            "radius": 0
+          }
+        ]
+      },
+      {
+        "name": "collapsed.selected",
+        "shadow": [
+          {
+            "color": "#FFFFFF",
+            "offset": {
+              "width": 0,
+              "height": 1
+            },
+            "radius": 0
+          },
+          {
+            "color": "#888888",
+            "offset": {
+              "width": 0,
+              "height": 3
+            },
+            "radius": 0
+          },
+          {
+            "color": "#FFFFFF",
+            "offset": {
+              "width": 0,
+              "height": 6
+            },
+            "radius": 0
+          },
+          {
+            "color": "#555555",
+            "offset": {
+              "width": 0,
+              "height": 7
+            },
+            "radius": 0
+          },
+          {
+            "color": "#FFFFFF",
+            "offset": {
+              "width": 0,
+              "height": 10
+            },
+            "radius": 0
+          },
+          {
+            "color": "#333333",
+            "offset": {
+              "width": 0,
+              "height": 11
+            },
+            "radius": 0
+          }
+        ]
+      }
+    ],
+    "connector": {
+      "default": {
+        "type": "quadratic",
+        "controlPoint": {
+          "above": {
+            "width": 0,
+            "height": 0.75
+          },
+          "below": {
+            "width": 0,
+            "height": 0.75
+          },
+          "horizontal": {
+            "width": 0,
+            "height": 0
+          }
+        },
+        "label": {
+          "position": {
+            "ratio": 0.5
+          },
+          "backgroundColor": "transparent",
+          "borderColor": "transparent",
+          "text": {
+            "color": "#4F4F4F",
+            "font": {
+              "size": 9,
+              "sizePx": 12,
+              "weight": "normal"
+            }
+          }
+        },
+        "line": {
+          "color": "#707070",
+          "width": 1
+        }
+      }
+    },
+    "link": {
+      "default": {
+        "line": {
+          "color": "red",
+          "lineStyle": "dashed",
+          "width": 1
+        },
+        "label": {
+          "position": {
+            "ratio": 0.5
+          },
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "text": {
+            "color": "#4F4F4F",
+            "font": {
+              "size": 9,
+              "sizePx": 12,
+              "weight": "normal"
+            }
+          }
+        }
+      }
+    }
+  }
+}

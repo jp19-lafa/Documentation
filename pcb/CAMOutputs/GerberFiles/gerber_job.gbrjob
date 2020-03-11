@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-12-23T16:41:29Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.5.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "farmlab"
+        },
+        "Owner": "Jonas Van Hoof <jonas.vanhoof@outlook.com>",
+        "Size": {
+            "X": 131.2,
+            "Y": 149.53
+        }
+    }
+}
